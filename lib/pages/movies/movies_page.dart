@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ott_app/components/top_gradient.dart';
 import 'package:ott_app/pages/movies/components/movie_grid.dart';
-import 'package:ott_app/pages/movies/components/top_gradient.dart';
 
 class MoviesPage extends StatelessWidget {
   @override

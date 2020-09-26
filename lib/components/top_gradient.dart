@@ -4,7 +4,7 @@ class TopGradient extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 70,
+      height: 100,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           begin: FractionalOffset.topCenter,
@@ -13,7 +13,7 @@ class TopGradient extends StatelessWidget {
             Colors.black,
             Colors.transparent,
           ],
-          stops: [0.2, 1],
+          stops: [0, 1],
         ),
       ),
     );
