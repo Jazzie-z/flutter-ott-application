@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ott_app/components/detail/components/detail_container.dart';
+import 'package:ott_app/pages/detail/components/detail_container.dart';
 class DetailPage extends StatefulWidget {
   @override
   _DetailPageState createState() => _DetailPageState();

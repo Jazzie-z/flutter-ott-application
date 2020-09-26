@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ott_app/components/detail/components/billboard.dart';
-import 'package:ott_app/components/detail/components/carousel.dart';
-import 'package:ott_app/components/detail/components/description.dart';
-import 'package:ott_app/components/detail/components/title_with_view_all.dart';
+import 'package:ott_app/pages/detail/components/billboard.dart';
+import 'package:ott_app/pages/detail/components/carousel.dart';
+import 'package:ott_app/pages/detail/components/description.dart';
+import 'package:ott_app/pages/detail/components/title_with_view_all.dart';
 
 class DetailContainer extends StatelessWidget {
   const DetailContainer({
