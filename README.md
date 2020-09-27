@@ -5,6 +5,7 @@ A new Flutter application.
 ## Screenshots
 
 ![title](snapshot/detail.png)
+<img src="snapshot/detail.png" alt="drawing" width="200"/>
 
 ## Getting Started
 
