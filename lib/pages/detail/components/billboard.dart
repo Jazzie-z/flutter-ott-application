@@ -29,7 +29,7 @@ class BillBoard extends StatelessWidget {
             width: size.width,
             child: Hero(
               tag: detail.movie.title,
-              child: Image.network(detail.movie.images['v'],fit: BoxFit.fill,),
+              child: Image.network(detail.movie.image,fit: BoxFit.fill,),
             ),
           ),
             Container(

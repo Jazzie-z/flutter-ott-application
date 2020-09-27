@@ -13,7 +13,7 @@ class Detail extends ChangeNotifier {
   void updateMovieDetail(data) {
     print(data.genre[0]);
     movie = new Movie(
-        title: data.title, description: data.description, images: data.images, genre: data.genre, duration:data.duration);
+        title: data.title, description: data.description, image: data.image, genre: data.genre, duration:data.duration);
     notifyListeners();
   }
 }

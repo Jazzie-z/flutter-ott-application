@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ott_app/components/bottom_nav.dart';
-import 'package:ott_app/pages/detail/detail_page.dart';
+import 'package:ott_app/pages/favorites/favorites_page.dart';
 import 'package:ott_app/pages/home/home_page.dart';
 import 'package:ott_app/pages/live/live_page.dart';
 import 'package:ott_app/pages/movies/movies_page.dart';
@@ -12,7 +12,7 @@ class Wrapper extends StatefulWidget {
 }
 
 class _WrapperState extends State<Wrapper> {
-  int selectedIndex = 2;
+  int selectedIndex = 0;
 
   List navItems = [
     {"icon": Icons.home, "title": 'Home', "component": HomePage()},
@@ -22,7 +22,7 @@ class _WrapperState extends State<Wrapper> {
       "title": 'CatchUp',
       "component": MoviesPage()
     },
-    {"icon": Icons.favorite, "title": 'My List', "component": DetailPage()},
+    {"icon": Icons.favorite, "title": 'My List', "component": FavouritesPage()},
     {"icon": Icons.settings, "title": 'Settings', "component": SettingsPage()},
   ];
 
