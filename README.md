@@ -4,8 +4,11 @@ A new Flutter application.
 
 ## Screenshots
 
-![title](snapshot/detail.png)
+<p float="left">
+<img src="snapshot/home.png" alt="drawing" width="200"/>
+<img src="snapshot/movies.png" alt="drawing" width="200"/>
 <img src="snapshot/detail.png" alt="drawing" width="200"/>
+</p>
 
 ## Getting Started
 
